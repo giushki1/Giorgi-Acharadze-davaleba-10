@@ -7,7 +7,7 @@ body {
   width: 100%;
   margin: 0 auto;
 }
-.cont-p {
+.cont-p,.sec2-p1 {
   color: #5863f8; 
   font-size: 14px;
   margin-top: 60px;
@@ -18,9 +18,10 @@ body {
   width: 100%;
   margin-bottom: 51px;
 }
-.cont-title {
+.cont-title,.sec2-title {
   color:#000000;
   font-size: 42px;
+  letter-spacing: 2px;
 }
 .form-box {
   max-width: 1109px;
@@ -90,4 +91,81 @@ input {
   line-height: 20px;
   color: #b1b1b1;
 }
+.sec2-title-box {
+  max-width: 544px;
+  width: 100%;
+  line-height: 50px;
+}
+.sec2imgs {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+.img-box{
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.img1 {
+width: 352px;
+}
+.footer {
+  width: 100%;
+  height: 395px;
+  background-color: #000000;
+}
+.about-box {
+  height: 395px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-title {
+  font-size: 24px;
+  color: white;
+  margin-bottom: 26px;
+}
+.footer-text-box {
+  width: 240px;
+}
+.footer-text {
+  font-size: 14px;
+  color: #b1b1b1;
+  line-height: 20px;
+  text-align:start;
+  margin-bottom: 20px;
+}
 
+.fb-icon,.twt-icon,.google-icon {
+  border-radius: 50%;
+}
+.fb-icon {
+  background-color: #3b5998;
+  padding: 6px 12px;
+}
+.twt-icon {
+  background-color: #55acee;
+  padding: 9px 7px;
+}
+.google-icon {
+  background-color: #dc4e41;
+  padding: 10px 7px;
+}
+.list-title,.list-title2 {
+  font-size: 18px;
+  color: white; 
+  margin-bottom: 26px; 
+}
+.f-li {
+  color: #5863f8;
+  font-size: 14px;
+  line-height: 25px;
+}
+.mail-icon {
+  width: 18px;
+  background-color: #5863f8;
+  color: white;
+}
+
+
+ 
