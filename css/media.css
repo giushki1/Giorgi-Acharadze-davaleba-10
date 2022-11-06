@@ -1,0 +1,23 @@
+@media (max-width: 1224px) {
+  .img-box {
+    justify-content: space-around;
+  }
+}
+@media (max-width: 1012px) {
+
+}
+@media (max-width: 1110px) {
+  .cont-p,.cont-title-box ,.sec2-p1,.sec2-title{
+    margin-left: 40px;
+  }
+  .input-box{
+   margin-right: 100px;
+  }
+  .textarea {
+    width: 620px;
+    margin-left: 40px;
+  }
+  .img1 {
+    width: 300px;
+  }
+}
