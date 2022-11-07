@@ -6,18 +6,66 @@
 @media (max-width: 1012px) {
 
 }
-@media (max-width: 1110px) {
+@media (max-width: 1150px) {
   .cont-p,.cont-title-box ,.sec2-p1,.sec2-title{
-    margin-left: 40px;
+    margin-left: 60px;
   }
   .input-box{
    margin-right: 100px;
   }
   .textarea {
     width: 620px;
-    margin-left: 40px;
+    margin-left: 60px;
   }
   .img1 {
     width: 300px;
+  }
+}
+@media (max-width: 1080px) {
+  .textarea {
+    width: 580px;
+    margin-left: 60px;
+  }
+  .contact-info-box {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .mail-box {
+    width: 156px;
+  }
+  .mail-url1,.mail-url2 {
+    font-size: 13px;
+  }
+  .mail {
+    font-size: 17px;
+  }
+}
+@media (max-width: 1040px) {
+
+  .textarea {
+    width: 540px;
+    margin-left: 60px;
+  }
+}
+@media (max-width: 1000px) {
+  .textarea {
+    width: 353px;
+    margin-left: 90px;
+  }
+  .img1 {
+    width: 250px;
+  }
+  .cont-p,.cont-title-box ,.sec2-p1,.sec2-title{
+    margin-left: 90px;
+  }
+  .cont-title,.sec2-title {
+    font-size: 36px;
+  }
+
+}
+@media (max-width: 912px) {
+  .form-box {
+    display: flex;
+   justify-content: center;
   }
 }
