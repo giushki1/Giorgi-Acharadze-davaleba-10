@@ -43,6 +43,9 @@ body {
   border: 2px solid #e8e8e8; 
   background-color: #f8f8f8;
 }
+.textarea::placeholder {
+  color: #e8e8e8;
+}
 .input-box {
   max-width:353px;
   width: 100%;
