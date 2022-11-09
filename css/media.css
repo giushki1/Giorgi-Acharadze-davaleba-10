@@ -1,6 +1,14 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @media (max-width: 1224px) {
   .img-box {
-    justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
 }
 @media (max-width: 1012px) {
@@ -27,8 +35,12 @@
     margin-left: 60px;
   }
   .contact-info-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-evenly;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
   }
   .mail-box {
     width: 156px;
@@ -64,8 +76,12 @@
 }
 @media (max-width: 912px) {
   .form-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-   justify-content: center;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
   }
 }
 @media (max-width:800px) {
@@ -83,13 +99,21 @@
 }
 @media (max-width: 768px) {
   .form-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    justify-self: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-grid-column-align: center;
+        justify-self: center;
   }
   .text-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .input-box {
     margin: 0 auto;
@@ -132,9 +156,14 @@
   .about-box {
     width: 600px;
     margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     /* flex-wrap: wrap; */
   }
   .list-box2 {
@@ -160,15 +189,25 @@
   line-height: 8px;
 }
 .img-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 }
 @media (max-width: 660px) {
   .about-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap:wrap;
+    -ms-flex-wrap:wrap;
+        flex-wrap:wrap;
 
   }
   .footer-text-box {
@@ -196,9 +235,14 @@
    .about-box {
     width: 100%;
     margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     /* flex-wrap: wrap; */
   }
 }
@@ -242,6 +286,7 @@
    }
    .sec2-title,.cont-title {
     font-size: 10px;
-    
   }
 }
+
+ 

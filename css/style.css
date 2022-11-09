@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 body {
   font-family: 'Poppins', sans-serif;
 }
@@ -27,8 +34,12 @@ body {
   max-width: 1109px;
   height:288px;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  column-gap: 16px;
+  -webkit-column-gap: 16px;
+     -moz-column-gap: 16px;
+          column-gap: 16px;
 }
 .text-box {
   max-width: 720px;
@@ -42,6 +53,18 @@ body {
   padding-left: 20px;
   border: 2px solid #e8e8e8; 
   background-color: #f8f8f8;
+}
+.textarea::-webkit-input-placeholder {
+  color: lightgray;
+}
+.textarea::-moz-placeholder {
+  color: lightgray;
+}
+.textarea:-ms-input-placeholder {
+  color: lightgray;
+}
+.textarea::-ms-input-placeholder {
+  color: lightgray;
 }
 .textarea::placeholder {
   color: lightgray;
@@ -57,6 +80,18 @@ input {
   border: 2px solid #e8e8e8; 
   background-color: #f8f8f8;
 }
+input::-webkit-input-placeholder {
+  color: lightgrey;
+}
+input::-moz-placeholder {
+  color: lightgrey;
+}
+input:-ms-input-placeholder {
+  color: lightgrey;
+}
+input::-ms-input-placeholder {
+  color: lightgrey;
+}
 input::placeholder {
   color: lightgrey;
 }
@@ -69,15 +104,24 @@ input::placeholder {
   border: none;
 }
 .contact-info-box{
+ display: -webkit-box;
+ display: -ms-flexbox;
  display: flex;
- justify-content: space-between;
+ -webkit-box-pack: justify;
+     -ms-flex-pack: justify;
+         justify-content: space-between;
 }
 .mail-box {
   max-width: 353px;
   width: 100%;
   margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   text-align: center;
 }
 .fa-regular,.phone-icon {
@@ -117,8 +161,12 @@ input::placeholder {
 }
 .img-box{
   margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 .img1 {
   width: 352px;
@@ -132,9 +180,15 @@ input::placeholder {
 }
 .about-box {
   height: 395px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .footer-title {
   font-size: 24px;
