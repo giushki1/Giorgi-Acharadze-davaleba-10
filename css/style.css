@@ -44,7 +44,7 @@ body {
   background-color: #f8f8f8;
 }
 .textarea::placeholder {
-  color: #e8e8e8;
+  color: lightgray;
 }
 .input-box {
   max-width:353px;
@@ -56,6 +56,9 @@ input {
   margin-bottom: 16px;
   border: 2px solid #e8e8e8; 
   background-color: #f8f8f8;
+}
+input::placeholder {
+  color: lightgrey;
 }
 .btn {
   width: 353px;
